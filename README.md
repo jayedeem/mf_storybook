@@ -1,7 +1,13 @@
 How to use module federation with storybook and react example
 
+# Installation
+
 - Must Have Docker Installed
 - docker-compose up --build
+
+# Purpose
+
+- Share a common design system through out multiple codebases using the module federation webpack plugin
 
 # FRONT
 
