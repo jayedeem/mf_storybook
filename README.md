@@ -7,7 +7,7 @@ How to use module federation with storybook and react example
 
 # Purpose
 
-- Share a common design system through out multiple codebases using the module federation webpack plugin
+- Share a common design system through out multiple codebases using the module federation webpack plugin and a concept for micro front ends
 
 # Front
 
