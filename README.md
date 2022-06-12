@@ -9,13 +9,17 @@ How to use module federation with storybook and react example
 
 - Share a common design system through out multiple codebases using the module federation webpack plugin
 
-# FRONT
+# Front
 
 - Bring in component from storybook
 - add to components folder (makes it one line for now)
 - add the types of the component in @types/components/
 
-# Storybook
+# Storybook/DesignSystem
 
 - create a component
 - expose component in .storybook/main.js
+
+## TODO
+
+- Figure out if both need to be restarted in order to receive new components/updated remoteEntry file
