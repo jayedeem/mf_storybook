@@ -23,4 +23,4 @@ How to use module federation with storybook and react example
 
 ## TODO
 
-- Figure out if both need to be restarted in order to receive new components/updated remoteEntry file
+- ~~Figure out if both need to be restarted in order to receive new components/updated remoteEntry file~~ (Restart both images to receive changes)

@@ -2,16 +2,16 @@ const {
   withStorybookModuleFederation,
 } = require("storybook-module-federation");
 
-const storiesDir = "../src/stories/";
+const storiesDir = "../src/stories";
 
 module.exports = withStorybookModuleFederation({
   name: "components",
   filename: "remoteEntry.js",
   exposes: {
-    // "./Button": require.resolve(`${storiesDir}Button.tsx`),
-    "./Page": require.resolve("../src/stories/Page.tsx"),
-    "./CTA": require.resolve("../src/stories/Cta.tsx"),
-    "./Heading": require.resolve("../src/stories/Heading.tsx"),
+    "./Button": require.resolve(`${storiesDir}/Button.tsx`),
+    "./Page": require.resolve(`${storiesDir}/Page.tsx`),
+    "./CTA": require.resolve(`${storiesDir}/Cta.tsx`),
+    "./Heading": require.resolve(`${storiesDir}/Heading.tsx`),
   },
   shared: {
     react: {
