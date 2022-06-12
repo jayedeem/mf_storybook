@@ -17,6 +17,7 @@ How to use module federation with storybook and react example
 
 # Storybook/DesignSystem
 
+- webpack for sb is in .storybook/main.js
 - create a component
 - expose component in .storybook/main.js
 
